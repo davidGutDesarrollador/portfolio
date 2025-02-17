@@ -8,7 +8,7 @@ const TAB_DATA = [
     title: "skills",
     id: "skills",
     content: (
-      <ul id="About" className="list-disc pl-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 text-base sm:text-lg">
+      <ul className="list-disc pl-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 text-base sm:text-lg">
         <li>Python</li>
         <li>Java</li>
         <li>PHP</li>
@@ -45,7 +45,7 @@ const TAB_DATA = [
     id: "experiencie",
     content: (
       <ul>
-        <li>1 year in salesforce development at Accenture:</li>
+        <li id="About">1 year in salesforce development at Accenture:</li>
         <li>
           I have 1 year of experience as a Salesforce developer at Accenture,
           where I designed, developed, and implemented customized solutions on
